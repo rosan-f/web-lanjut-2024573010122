@@ -145,7 +145,7 @@ Folder ini gunanya untuk semua library pihak ketiga yang diinstall lewat Compose
 
 MVC(Model View Controller) adalah sebuah arsitektur perangkat lunak yang memisahkan aplikasi menjadi tiga komponen utama untuk mempermudah pengelolaan dan pengembangan. Model bertanggung jawab terhadap data dan logika bisnis aplikasi, termasuk pengambilan, penyimpanan, dan pemrosesan informasi. View berfungsi untuk menampilkan informasi kepada pengguna, seperti antarmuka atau tampilan yang dilihat di browser. Sementara itu, Controller bertindak sebagai penghubung antara Model dan View, menerima input atau permintaan dari pengguna, memprosesnya melalui Model, dan kemudian menampilkan hasilnya melalui View. Dengan pemisahan ini, aplikasi menjadi lebih terstruktur, mudah dipelihara, dan skalabel.
 
-![Gambar Memotret](gambar/mvc.png)
+![Gambar Memotret](gambar/praktikum_1/mvc.png)
 sumber gambar(https://ids.ac.id/mvc-model-view-controller/)
 
 ---
