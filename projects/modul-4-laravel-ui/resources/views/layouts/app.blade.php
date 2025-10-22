@@ -38,7 +38,11 @@
         @endif
         
         @yield('content')
+<<<<<<< HEAD
     </div>
+=======
+    </div>sales_record
+>>>>>>> cb65347 (.)
     
     <!-- Footer menggunakan Blade Component -->
     <x-footer :theme="$theme" />
