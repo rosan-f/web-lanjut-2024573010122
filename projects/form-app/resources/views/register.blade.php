@@ -6,7 +6,7 @@
 </head>
 <body class="container mt-5">
     <h2>Contoh Validasi Kustom</h2>
-    
+
     @if (session('success'))
         <div class="alert alert-success">
             {{ session('success') }}
