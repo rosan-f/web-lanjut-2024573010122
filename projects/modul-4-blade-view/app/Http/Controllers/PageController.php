@@ -19,6 +19,5 @@ class PageController extends Controller
         $username = 'Liu User';
         return view('user.dashboard', compact('role', 'username'));
     }
-
-
 }
+

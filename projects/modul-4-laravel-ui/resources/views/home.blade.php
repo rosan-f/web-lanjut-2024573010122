@@ -8,16 +8,9 @@
         <div class="theme-demo {{ $theme === 'dark' ? 'bg-dark border-light' : 'bg-white border' }} mb-5">
             <h1 class="display-4 mb-4">🚀 Laravel UI Integrated Demo</h1>
             <p class="lead">Demonstrasi lengkap Partial Views, Blade Components, dan Theme Switching dalam satu aplikasi terpadu.</p>
-            
+
             <div class="row mt-5">
                 <div class="col-md-4 mb-4">
-                    {{-- <x-feature-card 
-                        title="Partial Views"
-                        icon="📁"
-                        description="Gunakan @@include untuk reusable UI components dengan data sederhana."
-                        badge="Latihan 13"
-                        :theme="$theme"
-                    /> --}}
 
                     @include('components.feature-card', [
                         'title' => 'Partial Views',
@@ -30,8 +23,8 @@
                 </div>
 
                 <div class="col-md-4 mb-4">
-                    <x-feature-card 
-                        title="Blade Components" 
+                    <x-feature-card
+                        title="Blade Components"
                         icon="🧩"
                         description="Komponen Blade dengan props dan slots untuk UI yang lebih kompleks."
                         badge="Latihan 14"
@@ -39,15 +32,15 @@
 
                     />
                 </div>
-                
+
                 <div class="col-md-4 mb-4">
-                    <x-feature-card 
+                    <x-feature-card
                         title="Theme Switching"
                         icon="🎨"
                         description="Toggle antara light dan dark mode dengan session persistence."
                         badge="Latihan 15"
                         :theme="$theme"
-                        
+
                     />
                 </div>
             </div>
